@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Cliphist",
+  "description": "Grab items from the Cliphist history",
+  "developer_name": "John Doe",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "cliphist_kw",
+      "type": "keyword",
+      "name": "Cliphist",
+      "default_value": "clip"
+    }
+  ]
+}
+
